@@ -54,7 +54,7 @@ html {
     left: -30%;
     width: 80%;
     height: 240%;
-    background: rgba(245, 180, 60, 0.85);
+    background: rgba(231, 0, 39, 0.85);
     transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
     -moz-transform: rotate(-40deg);
@@ -77,18 +77,18 @@ html {
 }
 
 .banner-text h1 {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    font-weight: 300;
-    line-height: 0.85em;
-    padding: 10px 0 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 1.0em;
+	padding: 10px 0 24px;
 }
 
 .banner-text p {
-    font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    color: #271c3e;
-    margin-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	margin-bottom: 30px;
 }
 
 .banner-text a {
@@ -158,7 +158,7 @@ html {
 }
 
 .profile-inner .profile-img:hover::after {
-    background: rgba(245, 179, 60, 0.5);
+    background: rgba(231, 0, 39, 0.5);
 }
 
 .profile-inner {
@@ -234,7 +234,7 @@ html[xmlns] .slides {
     width: 40px;
     height: 40px;
     line-height: 40px;
-    background: #f5b33c;
+    background: #e70026;
     overflow: hidden;
     color: #fff;
 }
@@ -289,7 +289,7 @@ html[xmlns] .slides {
     top: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient( to bottom, rgba(245, 179, 60, 0.8), rgba(245, 179, 60, 0.8) );
+    background: linear-gradient( to bottom, rgba(180, 0, 30, 0.8), rgba(231, 0, 39, 0.8) );
     z-index: -1;
 }
 
@@ -305,7 +305,7 @@ html[xmlns] .slides {
 }
 
 .footer-content h2 {
-	color: #271c3e;
+	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	font-weight: 400;
@@ -343,7 +343,7 @@ html[xmlns] .slides {
 }
 
 .copyright p {
-	color: #271c3e;
+	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -360,7 +360,7 @@ html[xmlns] .slides {
 }
 
 .footer-menu ul li a {
-	color: #271c3e;
+	color: #fff;
 	font-family: 'Roboto', sans-serif;
 	font-size: 14px;
 	font-weight: 400;
@@ -373,7 +373,7 @@ html[xmlns] .slides {
 }
 
 .footer-menu ul li a:hover {
-    color: #fff;
+    color: #101820FF;
 }
 
 .footer-menu ul li::after {
@@ -391,7 +391,7 @@ html[xmlns] .slides {
 #features-para {
     background: url(../images/bg-parallax.jpeg) repeat 0 top fixed;
     padding: 70px 0;
-    border-bottom: 10px solid #f5b33c;
+    border-bottom: 10px solid #e70026;
     position: relative;
     z-index: 1;
 }
@@ -420,7 +420,7 @@ html[xmlns] .slides {
 }
 
 .feature-text a {
-	color: #f5b33c;
+	color: #e70026;
 	font-family: 'Roboto', sans-serif;
 	font-size: 24px;
 	font-weight: 300;
@@ -448,7 +448,7 @@ html[xmlns] .slides {
 }
 
 .icon-box i {
-	color: #f5b33c;
+	color: #e70026;
 	font-size: 5em;
 	margin-bottom: 20px;
 }
@@ -480,7 +480,7 @@ html[xmlns] .slides {
 }
 
 .testimonial-head h4 {
-	color: #f5b33c;
+	color: #e70026;
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 400;
