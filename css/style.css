@@ -54,7 +54,7 @@ html {
     left: -30%;
     width: 80%;
     height: 240%;
-    background: rgba(231, 0, 39, 0.85);
+    background: rgba(203, 195, 227, 0.8);
     transform: rotate(-40deg);
     -webkit-transform: rotate(-40deg);
     -moz-transform: rotate(-40deg);
@@ -81,13 +81,13 @@ html {
 	font-size: 60px;
 	font-weight: 300;
 	line-height: 1.0em;
-	padding: 10px 0 24px;
+	padding: 10px 0 20px;
 }
 
 .banner-text p {
 	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
-	color: #fff;
+	color: #271c3e;
 	margin-bottom: 30px;
 }
 
@@ -142,7 +142,7 @@ html {
     margin-bottom: 10px;
 }
 
-.profile-inner .profile-img::after {
+.profile-inner .profile-img a::before {
     position: absolute;
     content: '';
     top: 0;
@@ -155,18 +155,16 @@ html {
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     -ms-transition: all 0.5s ease-in-out;
+    
 }
 
-.profile-inner .profile-img:hover::after {
-    background: rgba(231, 0, 39, 0.5);
-}
-
-.profile-inner {
-    color: #676767;
-    font-family: 'Roboto', sans-serif;
+.profile-inner .profile-img a:hover::before {
+    background: rgba(203, 195, 227, 0.5);
 }
 
 .profile-inner p {
+    color: #676767;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
@@ -271,120 +269,6 @@ html[xmlns] .slides {
 
 
 /* Flexislider Ends */
-
-/* Footer Starts */
-
-#footer {
-    background: url(../images/bg-footer.jpg) no-repeat 50% 0 fixed;
-    background-size: cover;
-    padding-top: 50px;
-    position: relative;
-    z-index: 1;
-}
-
-#footer::after {
-    position: absolute;
-    content: '';
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient( to bottom, rgba(180, 0, 30, 0.8), rgba(231, 0, 39, 0.8) );
-    z-index: -1;
-}
-
-.footer-top {
-    padding-bottom: 40px;
-}
-
-.footer-content h3 {
-    color: #fff;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-}
-
-.footer-content h2 {
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 24px;
-	font-weight: 400;
-	padding: 20px 0 30px;
-}
-
-.footer-content a {
-    color: white;
-    padding: 10px 30px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
-    text-align: center;
-    background: #271c3e;
-    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
-    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
-    -moz-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
-    -webkit-border-radius: 3px;
-    border-radius: 6px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-}
-
-.footer-content a:hover {
-    background: #362757;
-    color: white;
-}
-
-.footer-bottom {
-    border-top: 1px solid #f5b33c;
-    padding: 30px 0;
-}
-
-.copyright p {
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-	margin-top: 3px;
-}
-
-.footer-menu ul {
-    display: flex;
-    justify-content: flex-end;
-}
-
-.footer-menu ul li {
-	padding: 0px 5px;
-}
-
-.footer-menu ul li a {
-	color: #fff;
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	font-weight: 400;
-    margin-left: 30px;
-    transition: all linear .3s;
-    -webkit-transition: all linear .3s;
-    -moz-transition: all linear .3s;
-    -o-transition: all linear .3s;
-    -ms-transition: all linear .3s;
-}
-
-.footer-menu ul li a:hover {
-    color: #101820FF;
-}
-
-.footer-menu ul li::after {
-	content: "|";
-	position: relative;
-	left: 18px;
-}
-
-.footer-menu ul li:last-child::after {
-    display: none;
-}
 
 /* Featured Starts */
 
@@ -559,3 +443,120 @@ html[xmlns] .slides {
     margin-bottom: 0;
 }
 
+/* Testimonial Ends */
+
+/* Footer Starts */
+
+#footer {
+    background: url(../images/bg-footer.jpg) no-repeat 50% 0 fixed;
+    background-size: cover;
+    padding-top: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#footer::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient( to bottom, rgba(203, 195, 227, 0.8), rgba(158, 140, 212, 0.8) );
+    z-index: -1;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+}
+
+.footer-content h3 {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.footer-content h2 {
+	color: #271c3e;
+	font-family: 'Roboto', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	padding: 20px 0 30px;
+}
+
+.footer-content a {
+    color: white;
+    padding: 10px 30px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    background: #271c3e;
+    box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0px 3px 0px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 3px;
+    border-radius: 6px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.footer-content a:hover {
+    background: #362757;
+    color: white;
+}
+
+.footer-bottom {
+    border-top: 1px solid #f5b33c;
+    padding: 30px 0;
+}
+
+.copyright p {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 3px;
+}
+
+.footer-menu ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-menu ul li {
+	padding: 0px 5px;
+}
+
+.footer-menu ul li a {
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+    margin-left: 30px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.footer-menu ul li a:hover {
+    color: #101820FF;
+}
+
+.footer-menu ul li::after {
+	content: "|";
+	position: relative;
+	left: 18px;
+}
+
+.footer-menu ul li:last-child::after {
+    display: none;
+}
+
+/* Footer Ends */
