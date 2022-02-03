@@ -28,7 +28,7 @@
     /* Banner */
 
     #banner::after {
-        width: 90%;
+        width: 87%;
     }
 
     .banner-text h1 {
@@ -67,7 +67,7 @@
     /* Banner */
 
     #banner::after {
-        width: 90%;
+        width: 92%;
     }
 
     .banner-text h1 {
@@ -113,24 +113,31 @@
         bottom: 221px;
     }
 
-    
+    /* Testimonial Ends */
 
+    /* Pages */
+
+    #page-banner::after {
+        left: -25%;
+        width: 65%;
+    }
+    /* Pages */
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 
     /* Banner */
 
-    #banner::after {
+    #banner, #page-banner {
+        padding: 140px 0 50px;
+    }
+
+    #banner::after, #page-banner::after {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(231, 0, 39, 0.6);
+        background: rgba(203, 195, 227, 0.8);
         transform: rotate(0);
-    }
-
-    #banner {
-        padding: 140px 0 50px;
     }
 
     .banner-text h1 {
@@ -255,6 +262,12 @@
 
     /* Footer Ends */
     
+    /* Pages */
+
+    #about {
+        padding: 50px 0 30px;
+    }
+    /* Pages */
 
 }
 
@@ -262,18 +275,16 @@
 
     /* Banner */
 
-    #banner {
-        background: url(../images/home-banner-md.jpg) no-repeat right 0 fixed;
-        background-size: cover;
+    #banner, #page-banner {
         padding: 140px 0 50px;
     }
     
 
-    #banner::after {
+    #banner::after, #page-banner::after {
         left: 0;
         width: 100%;
         height: 100%;
-        background: rgba(231, 0, 39, 0.6);
+        background: rgba(203, 195, 227, 0.8);
         transform: rotate(0);
     }
 
@@ -380,6 +391,17 @@
         display: none;
     }
     /* Footer Ends */
+
+    /* pages */
+
+    #about {
+        padding: 50px 0 30px;
+    }
+    /* pages */
+
+    #about-features {
+        padding: 45px 0;
+    }
     
 
 }
@@ -388,13 +410,11 @@
 
     /* Banner Starts */
 
-    #banner {
-        background: url(../images/home-banner-md.jpg) no-repeat right 0 fixed;
-        background-size: cover;
-        padding: 120px 0 50px;
+    #banner, #page-banner {
+        padding: 110px 0 50px;
     }
 
-    #banner::after {
+    #banner::after, #page-banner::after {
         width: 100%;
         left: 0;
         background: rgba(203, 195, 227, 0.8);
@@ -562,5 +582,17 @@
         display: none;
     }
     /* Footer Ends */
+
+
+    /* Pages */
+
+    #about {
+        padding: 45px 0 25px;
+    }
+
+    #about-features {
+        padding: 40px 0;
+    }
+    /* Pages */
     
 }
